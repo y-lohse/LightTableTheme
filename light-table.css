@@ -16,6 +16,17 @@
 .cm-s-light-table.CodeMirror .CodeMirror-cursor {
 	border-left: 1px solid #ffffff;
 }
+
+.cm-s-light-table.CodeMirror .CodeMirror-cursor:before{
+    content: 'a';
+    display: block;
+    position: absolute;
+    left: -500px;
+    right: 0;
+    width: 9999px;
+    background: rgba(255,255,255,.08);
+    visibility: visible !important;
+}
 .cm-s-light-table.CodeMirror .CodeMirror-selected {
 	background: #555555;
 }
