@@ -18,14 +18,15 @@
 }
 
 .cm-s-light-table.CodeMirror .CodeMirror-cursor:before{
-    content: 'a';
-    display: block;
+    content: '';
+    display: inline-block;
     position: absolute;
-    left: -500px;
+    left: -5000px;
     right: 0;
     width: 9999px;
+    height: 1.15em;
     background: rgba(255,255,255,.08);
-    visibility: visible !important;
+    visibility:visible;
 }
 .cm-s-light-table.CodeMirror .CodeMirror-selected {
 	background: #555555;
@@ -62,7 +63,6 @@
 }
 /*
 - css tag selector
-- html tag
 */
 .cm-s-light-table.CodeMirror .cm-tag { 
     color: #7ac1ff;
