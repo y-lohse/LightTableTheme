@@ -13,10 +13,14 @@
 .cm-s-light-table.CodeMirror .CodeMirror-linenumber {
 	color: #99997a;
 }
+.cm-s-light-table.CodeMirror .CodeMirror-lines {
+	overflow: hidden;
+    padding-left: 44px;
+    margin-left: -44px;
+}
 .cm-s-light-table.CodeMirror .CodeMirror-cursor {
 	border-left: 1px solid #ffffff;
 }
-
 .cm-s-light-table.CodeMirror .CodeMirror-cursor:before{
     content: '';
     display: inline-block;
@@ -24,6 +28,7 @@
     left: -5000px;
     right: 0;
     width: 9999px;
+    overflow: hidden;
     height: 1.15em;
     background: rgba(255,255,255,.08);
     visibility:visible;
