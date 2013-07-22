@@ -4,6 +4,9 @@
     padding-left: 10px;
     /*overflow: auto;*/
 }
+.cm-s-light-table .CodeMirror-sizer{
+	padding-bottom: 70px;
+}
 /*
 //scrolling
 .CodeMirror-scroll{
