@@ -2,10 +2,6 @@
 	background-color: #202020;
     color:#ccc;
     padding-left: 10px;
-    /*overflow: auto;*/
-}
-.cm-s-light-table.CodeMirror:hover{
-/*	width: 100%;*/
 }
 .cm-s-light-table .CodeMirror-sizer{
 	padding-bottom: 70px;
@@ -13,7 +9,9 @@
 
 .cm-s-light-table .CodeMirror-scroll{
 	margin-right: 5px;
-	padding-right: 0;
+}
+.CodeMirror-hscrollbar{
+	display: none !important;
 }
 .cm-s-light-table .CodeMirror-vscrollbar{
 	overflow-y: hidden;
@@ -31,20 +29,19 @@
 
 .cm-s-light-table.CodeMirror .CodeMirror-gutters {
     border-color: #202020;
+    background: #202020;
 }
 .cm-s-light-table.CodeMirror .CodeMirror-linenumbers {
 	background-color: #202020;
-/*    padding-right: px;*/
 }
 .cm-s-light-table.CodeMirror .CodeMirror-linenumber {
 	color: #99997a;
 	padding-left: 15px;
 }
-.cm-s-light-table.CodeMirror .CodeMirror-lines {
-	overflow: hidden;
-    padding-left: 44px;
-    margin-left: -44px;
+.cm-s-light-table.CodeMirror pre{
+	padding: 0 5px;
 }
+
 .cm-s-light-table.CodeMirror .CodeMirror-cursor {
 	border-left: 1px solid #ffffff;
 }
