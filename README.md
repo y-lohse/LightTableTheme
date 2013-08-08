@@ -1,13 +1,13 @@
-# Light Table theme for CodeMirror / Brackets
+# Light Table theme for CodeMirror & Brackets
 
 A theme for [CodeMirror](http://codemirror.net/) based on the [Light Table](http://www.lighttable.com/) editor default theme. Designed for [brackets](https://github.com/adobe/brackets) but should work with any CodeMirror instance.
 
-[![Some css](http://yannick-lohse.fr/assets/2013/08/css.png](http://yannick-lohse.fr/assets/2013/08/css.png)
-[![Some js](http://yannick-lohse.fr/assets/2013/08/js.png](http://yannick-lohse.fr/assets/2013/08/js.png)
+[![Some css](http://yannick-lohse.fr/assets/2013/08/css.png)](http://yannick-lohse.fr/assets/2013/08/css.png) 
+[![Some js](http://yannick-lohse.fr/assets/2013/08/js.png)](http://yannick-lohse.fr/assets/2013/08/js.png) 
 
 # Improved readability
 
-Well balanced contrast ensures the code is very readable. I have bad eye sight, I know what I'm talking about.
+Well balanced contrast ensures the code is very readable. I have bad eyesight, I know what I'm talking about.
 
 Oh, it's also pretty.
 
