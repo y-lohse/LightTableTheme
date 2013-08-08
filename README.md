@@ -3,7 +3,7 @@
 A theme for [CodeMirror](http://codemirror.net/) based on the [Light Table](http://www.lighttable.com/) editor default theme. Designed for [brackets](https://github.com/adobe/brackets) but should work with any CodeMirror instance.
 
 [![Some css](http://yannick-lohse.fr/assets/2013/08/css.png](http://yannick-lohse.fr/assets/2013/08/css.png)
-[![Some js](http://yannick-lohse.fr/assets/2013/08/js.png)](http://yannick-lohse.fr/assets/2013/08/js.png)
+[![Some js](http://yannick-lohse.fr/assets/2013/08/js.png](http://yannick-lohse.fr/assets/2013/08/js.png)
 
 # Improved readability
 
@@ -23,9 +23,9 @@ With this theme they are reduced to the minimum; they'll effectively show you wh
 
 # Bottom padding
 
-![Padding at th bottom](http://yannick-lohse.fr/assets/2013/08/bottom.png)
-
 Content should never be glued to the bottom of your screen, that's just impractical. This theme provides some padding for better comfort.
+
+![Padding at th bottom](http://yannick-lohse.fr/assets/2013/08/bottom.png)
 
 ## Fabrication secrets
 
