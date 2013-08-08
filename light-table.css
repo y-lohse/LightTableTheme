@@ -27,6 +27,21 @@
     border-radius: 5px;
 }
 
+.cm-s-light-table.CodeMirror .inline-widget{
+	background: #272727;
+	color: #ccc;
+}
+.cm-s-light-table.CodeMirror .inline-widget h1,
+.cm-s-light-table.CodeMirror .inline-widget h2,
+.cm-s-light-table.CodeMirror .inline-widget h3{
+	color: #ccc;
+}
+.cm-s-light-table.CodeMirror .inline-widget p,
+.cm-s-light-table.CodeMirror .inline-widget dt,
+.cm-s-light-table.CodeMirror .inline-widget li,
+.cm-s-light-table.CodeMirror .inline-widget code{
+	color: #fff;
+}
 .cm-s-light-table.CodeMirror .CodeMirror-gutters {
     border-color: #202020;
     background: #202020;
