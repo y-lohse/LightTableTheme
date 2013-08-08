@@ -4,14 +4,11 @@
     padding-left: 10px;
 }
 .cm-s-light-table .CodeMirror-sizer{
-	padding-bottom: 70px;
+	padding-bottom: 90px;
 }
 
 .cm-s-light-table .CodeMirror-scroll{
 	margin-right: 5px;
-}
-.CodeMirror-hscrollbar{
-	display: none !important;
 }
 .cm-s-light-table .CodeMirror-vscrollbar{
 	overflow-y: hidden;
@@ -53,24 +50,15 @@
 	color: #99997a;
 	padding-left: 15px;
 }
+.cm-s-light-table.CodeMirror .CodeMirror-activeline{
+	background: rgba(255,255,255,.08);
+}
 .cm-s-light-table.CodeMirror pre{
 	padding: 0 5px;
 }
 
 .cm-s-light-table.CodeMirror .CodeMirror-cursor {
 	border-left: 1px solid #ffffff;
-}
-.cm-s-light-table.CodeMirror .CodeMirror-cursor:before{
-    content: '';
-    display: inline-block;
-    position: absolute;
-    left: -5000px;
-    right: 0;
-    width: 9999px;
-    overflow: hidden;
-    height: 1.15em;
-    background: rgba(255,255,255,.08);
-    visibility:visible;
 }
 .cm-s-light-table.CodeMirror .CodeMirror-selected {
 	background: #555555;
