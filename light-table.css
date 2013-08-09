@@ -14,20 +14,20 @@
 .cm-s-light-table .CodeMirror-vscrollbar{
 	overflow-y: hidden;
 }
-::-webkit-scrollbar {
+.cm-s-light-table ::-webkit-scrollbar {
     width: 10px;
 }
-::-webkit-scrollbar-track {
+.cm-s-light-table ::-webkit-scrollbar-track {
     background: transparent;
 }
-::-webkit-scrollbar-thumb {
+.cm-s-light-table ::-webkit-scrollbar-thumb {
     background: rgba(255,255,255,.2);
     border-radius: 5px;
 }
-::-webkit-scrollbar-thumb:hover{
+.cm-s-light-table ::-webkit-scrollbar-thumb:hover{
 	background: rgba(255,255,255,.3);
 }
-::-webkit-scrollbar-thumb:active{
+.cm-s-light-table ::-webkit-scrollbar-thumb:active{
 	background: rgba(255,255,255,.4);
 }
 
