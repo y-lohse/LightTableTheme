@@ -1,7 +1,7 @@
 .cm-s-light-table.CodeMirror {
 	background-color: #202020;
     color:#ccc;
-    padding-left: 10px;
+    padding-left: 8px;
 }
 .cm-s-light-table .CodeMirror-sizer{
 	padding-bottom: 90px;
@@ -9,6 +9,7 @@
 
 .cm-s-light-table .CodeMirror-scroll{
 	margin-right: 5px;
+	border-color: #202020;
 }
 .cm-s-light-table .CodeMirror-vscrollbar{
 	overflow-y: hidden;
@@ -22,6 +23,12 @@
 ::-webkit-scrollbar-thumb {
     background: rgba(255,255,255,.2);
     border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: rgba(255,255,255,.3);
+}
+::-webkit-scrollbar-thumb:active{
+	background: rgba(255,255,255,.4);
 }
 
 .cm-s-light-table.CodeMirror .inline-widget{
@@ -54,7 +61,8 @@
 	background: rgba(255,255,255,.08);
 }
 .cm-s-light-table.CodeMirror pre{
-	padding: 0 5px;
+	/*padding between line number & content*/
+	padding: 0 8px;
 }
 
 .cm-s-light-table.CodeMirror .CodeMirror-cursor {
@@ -73,86 +81,43 @@
     color: #cb3233;
 }
 
-/*
-- comment
-*/
+
 .cm-s-light-table.CodeMirror .cm-comment { 
     color: #968879;
 }
-
-/*
-- css property
-- js object property
-*/
 .cm-s-light-table.CodeMirror .cm-property {
     color: #aaaaaa;
 }
-/*
-- css class selector
-*/
 .cm-s-light-table.CodeMirror .cm-qualifier { 
     color: #aaeeab;
 }
-/*
-- css tag selector
-*/
 .cm-s-light-table.CodeMirror .cm-tag { 
     color: #7ac1ff;
 }
-/*
-- css @ rule
-- js function parameter
-*/
 .cm-s-light-table.CodeMirror .cm-def { 
     color: #aaccff;
 }
-/*
-- css number value
-*/
 .cm-s-light-table.CodeMirror .cm-number {
     color: #ccccab;
 }
-/*
-- css hex color value
-*/
 .cm-s-light-table.CodeMirror .cm-atom { 
     color: #cc9dc7;
 }
-/*
-- css color keyword
-- js keyword
-*/
 .cm-s-light-table.CodeMirror .cm-keyword{
     color: #aacd80;
 }
-/*
-- css value string
-- js string
-*/
 .cm-s-light-table.CodeMirror .cm-string{
     color: #aadddd;
 }
-/*
-- css value keyword
-*/
 .cm-s-light-table.CodeMirror .cm-string-2{
     color: #7ad1dd;
 }
-/*
-- js global var
-*/
 .cm-s-light-table.CodeMirror .cm-variable { 
     color: #ccc19b; 
 }
-/*
-- js scopped variable
-*/
 .cm-s-light-table.CodeMirror .cm-variable-2 { 
     color: #aaccff; 
 }
-/*
-- html attribute
-*/
 .cm-s-light-table.CodeMirror .cm-attribute {
     color: #83e1b2;
 }
