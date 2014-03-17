@@ -91,6 +91,9 @@
 .cm-s-light-table.CodeMirror .cm-qualifier { 
     color: #aaeeab;
 }
+.cm-s-light-table.CodeMirror .cm-builtin {
+    color: #3F58FF;
+}
 .cm-s-light-table.CodeMirror .cm-tag { 
     color: #7ac1ff;
 }
